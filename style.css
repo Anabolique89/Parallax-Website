@@ -32,23 +32,23 @@ html {
   scroll-snap-type: y proximity;
 }
 .parallax1 {
-  background: url(imgs/first1.png);
+  background-image: url(Imgs/first1.png);
   min-height: 100%;
 }
 .parallax2 {
-  background: url(imgs/second.png);
+  background-image: url(Imgs/second.png);
   min-height: 60%;
 }
 .parallax3 {
-  background: url(imgs/third.png);
+  background-image: url(Imgs/third.png);
   min-height: 40%;
 }
 .parallax4 {
-  background: url(imgs/fourth.png);
+  background-image: url(Imgs/fourth.png);
   min-height: 60%;
 }
 .parallax5 {
-  background: url(imgs/first.png);
+  background-image: url(Imgs/first.png);
   min-height: 100%;
   align-items: center;
 }
