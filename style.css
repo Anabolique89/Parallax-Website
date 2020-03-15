@@ -1,12 +1,7 @@
 $dark: #333;
 $light: #fff;
-$color1: #00a6ed;
-$color2: #333;
-$color3: #666;
-$color4: #999;
-$color5: #89da59;
-$color6: #19191a;
-/* variables----- */
+
+/* variables----- */ /*
 :root {
   --red1: url(imgs/first1.png);
   --red2: url(imgs/second.png);
@@ -17,7 +12,7 @@ $color6: #19191a;
   --blue2: url(imgs/second.blue.png);
   --blue3: url(imgs/third.blue.png);
   --blue4: url(imgs/fourth.blue.png);
-}
+}*/
 /* main-------*/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 * {
@@ -37,27 +32,22 @@ html {
   scroll-snap-type: y proximity;
 }
 .parallax1 {
-  background-image: var(--red1);
   background: url(imgs/first1.png);
   min-height: 100%;
 }
 .parallax2 {
-  background-image: var(--red2);
   background: url(imgs/second.png);
   min-height: 60%;
 }
 .parallax3 {
-  background-image: var(--red3);
   background: url(imgs/third.png);
   min-height: 40%;
 }
 .parallax4 {
-  background-image: var(--red4);
   background: url(imgs/fourth.png);
   min-height: 60%;
 }
 .parallax5 {
-  background-image: var(--red5);
   background: url(imgs/first.png);
   min-height: 100%;
   align-items: center;
@@ -81,7 +71,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-#4{
+#4 {
   height: 600px;
 }
 .heading {
@@ -114,7 +104,7 @@ html {
 section {
   overflow: auto;
   padding: 50px 80px;
- /* background-color: #323232;
+  /* background-color: #323232;
   opacity:0.7; */
 }
 .dark {
@@ -146,13 +136,13 @@ footer {
 }
 .aqua {
   align-self: center;
-  width:250px;
-  height:20px;
+  width: 250px;
+  height: 20px;
 }
-audio{
+audio {
   align-self: center;
-  width:250px;
-  height:20px;
+  width: 250px;
+  height: 20px;
   opacity: 0.5;
 }
 .pngBlack {
@@ -161,28 +151,54 @@ audio{
   left: 50%;
   width: 100px;
   height: 100px;
-  margin:-60px 0 0 -60px;
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-.pngBlack{
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.pngBlack {
   position: absolute;
   top: 50%;
   left: 50%;
   width: 100px;
   height: 100px;
-  margin:-60px 0 0 -60px;
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 /*
 }
 .pngBlue {
@@ -362,8 +378,7 @@ li div {
   justify-content: center;
   margin-bottom: 10px;
   padding: 20px;
-  margin-top:20px;
-
+  margin-top: 20px;
 }
 .pngBlue1 {
   display: flex;
@@ -379,20 +394,20 @@ li div {
 }
 
 .dark p {
-  margin-left:40px;
-  margin-right:40px;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 15px;
 }
 .dark p:nth-child(2) {
- padding:0;
+  padding: 0;
   margin-bottom: 15px;
 }
 
 .dark h2 {
   margin-bottom: 15px;
 }
-.pngOrange{
-  max-width:100%;
+.pngOrange {
+  max-width: 100%;
   height: auto;
   position: relative;
   opacity: 0.5;
@@ -404,8 +419,8 @@ img.pngOrange:hover {
   /** default is 1, scale it to 1.5 */
   transform: scale(1.5, 1.5);
 }
-.pngBaby{
-  max-width:100%;
+.pngBaby {
+  max-width: 100%;
   height: auto;
   position: relative;
   opacity: 0.5;
@@ -417,8 +432,8 @@ img.pngBaby:hover {
   /** default is 1, scale it to 1.5 */
   transform: scale(1.5, 1.5);
 }
-.pngBlue{
-  max-width:100%;
+.pngBlue {
+  max-width: 100%;
   height: auto;
   position: relative;
   opacity: 0.5;
@@ -449,22 +464,21 @@ span.fade {
 
 .burningContainer {
   position: relative;
-
 }
 
 .burningContainer .pngBlue1 {
- position: absolute;
- top: 0;
- left: 0;
- z-index : 0;
- padding:30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  padding: 30px;
 }
 
-.burningContainer .burninglove{
- position: absolute;
- top: 0;
- left: 0;
- padding:30px;
+.burningContainer .burninglove {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
 }
 /*
 #dropzone {

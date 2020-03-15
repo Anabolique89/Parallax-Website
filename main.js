@@ -86,7 +86,7 @@ function complete() {
 }
 
 //--------dropzone-----------//
-
+/*
 function setup() {
   let canvas = createCanvas(200, 200);
   background(0);
@@ -99,3 +99,4 @@ function gotFile(file) {
   let img = createImg(file.data);
   img.size(100, 100);
 }
+*/
